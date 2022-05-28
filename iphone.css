@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1{
+    display: flex;
+    background-color:black;
+    opacity: 80%;
+    gap: 2rem;
+    height: 50px;
+    font-size: 15px;
+    align-items: center;
+    /* padding-bottom: 2rem; */
+    justify-content: center;
+    /* margin-top: .25rem; */
+    color: gray;
+}
+
+.apple_logo, .search, .cart{
+
+    height: 22px;
+}
+
+.store, .mac, .ipad, .iphone, 
+.watch, .airpods, .tv_home, 
+.only, .accessories, .support, .apple_logo{
+
+    cursor: pointer;
+}
+
+.store:hover{
+    color: aliceblue;
+    transition: all .5s;
+    transform: translate(5px, -2px);
+}
+.mac:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+.ipad:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+.iphone:hover{
+    color: aliceblue;
+    transition: 0.3s ease;
+    transform: translate(0, -5px);
+}
+
+.watch:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+
+.airpods:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+
+.tv_home:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+
+.only:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+
+.accessories:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+
+.support:hover{
+    color: aliceblue;
+    transition: all .5s;
+}
+.apple_logo:hover{
+  
+    opacity: 1.5;
+}
+
+.fa-apple {
+    color: #ffff;
+    opacity: 0.7;
+}
+.fa-apple:hover {
+  opacity: 1.10;
+}
+
+.container-2{
+    margin-top: .25rem;
+    
+    display: flex;
+    justify-content:center;
+}
+.edit_p, .edit_p2, .edit_p3{
+    height: 80px;
+}
+
+.phone_1, .phone_2, .phone_3{
+    text-align: center;
+}
+
+.new_1, .new_2, .new_3{
+    text-align: center;
+    color: brown;
+}
+
+
+.container-3{
+    display: flex;
+    color: #f2f2f2;
+    background-color: #0071e3;
+    justify-content: center;
+    height: 50px;
+    padding: 15px;
+    margin-top: 2.5rem;
+
+}
+
+
+.container-4{
+    margin-top: 6rem;
+    border-bottom: 10px solid gray;
+    
+}
+
+.heading_1{
+
+    text-align: center;
+    font-size: 24px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heading_2{
+
+    text-align: center;
+    font-size: 48px;
+    margin-top: .5rem;
+    letter-spacing: -0.144px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heading_3{
+
+    text-align: center;
+    margin-top: .75rem;
+    font-size: 21px;
+    color: #1d1d1f;
+    
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.buy{
+    text-align: center;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 980px;
+    height: 50px;
+    width: 70px;
+    /* line-height: 29.001px; */
+    border: none;
+    font-size: 21px;
+}
+
+.text{
+    font-size: 25px;
+    margin-top: .75rem;
+    color: #0071e3;
+}
+
+.super_sub{
+
+    display: flex;
+    gap: none;
+    justify-content: center;
+}
+
+.edit{
+    /* height: 612px;
+    width: 408px; */
+}
+
+.container-5{
+    margin-top: 8rem;
+    border-bottom: 10px solid gray;
+}
+.container-6{
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 15rem;
+}
+
+.pack{
+    margin-top: 8.5rem;
+}
+
+.new{
+    color: #bf4800;
+    text-align: center;
+    font-size: 17px;
+}
+
+.phone{
+    margin-top: .85rem;
+    margin-bottom: 1rem;
+    color: #1d1d1f;
+    font-size: 24px;
+    text-align: center;
+}
+
+.heading_1_1{
+    color: #0071e3;
+    text-align: center;
+    font-size: 48px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.img{
+    margin-top: 1rem;
+}
